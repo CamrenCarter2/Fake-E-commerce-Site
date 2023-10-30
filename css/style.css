@@ -53,6 +53,7 @@ header h1 {
 .card:hover {
     transform: translateY(-0.5%);
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+    font-size: x-large;
 
 }
 
@@ -84,6 +85,7 @@ header h1 {
     line-height: 1.7;
 
 }
+
 
 @keyframes strokeOffset {
     0% {
