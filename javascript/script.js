@@ -1,3 +1,4 @@
+
 function changeBackgroundGreen () {
     document.body.style.background = "green"
 }
@@ -16,5 +17,9 @@ function changeBackgroundBlue () {
 
 function changeBackgroundPurple (){
     document.body.style.background = "#7e376e"
+}
+
+function changeBackgroundRedMesh (){
+    document.body.style.background = "#bb272e"
 }
 

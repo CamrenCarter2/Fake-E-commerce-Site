@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 
@@ -35,6 +35,7 @@ header h1 {
 
 }
 
+/* The display for the shoes. Note: The  Class black is needed to change the box shadow to white*/
 .featured_cards {
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +45,7 @@ header h1 {
     gap: 20px;
     font-family: "Inter", sans-serif;
 }
+
 .card {
     width: 40%;
     height: 25%;
@@ -57,7 +59,7 @@ header h1 {
 
 }
 
-.black:hover{
+.black:hover {
     transform: translateY(-0.5%);
     box-shadow: 0 4rem 8rem rgba(255, 255, 255, 0.2);
 
@@ -86,23 +88,24 @@ header h1 {
 
 }
 
-
+/* Animation for the Header */
 @keyframes strokeOffset {
     0% {
-        stroke-dashoffset: 1000; 
+        stroke-dashoffset: 1000;
     }
+
     100% {
-        stroke-dashoffset: 0; 
+        stroke-dashoffset: 0;
     }
 }
 
 #animatedPath-S {
     fill: none;
-    stroke: #FFFF; 
-    stroke-width: 4; 
-    stroke-dasharray: 1000; 
-    stroke-dashoffset: 1000; 
-    animation: strokeOffset 6s ease forwards; 
+    stroke: #FFFF;
+    stroke-width: 4;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: strokeOffset 6s ease forwards;
 }
 
 a {

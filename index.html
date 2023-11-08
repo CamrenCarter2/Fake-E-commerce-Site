@@ -1,16 +1,20 @@
+<!--This is a mock or fake E-comerce site used to practice web development, The site is not monitised.-->
 <!DOCTYPE html>
 <html lang="en">
-
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Shoe Market Ecommerce Site</title>
+
 </head>
 
 <body>
 
     <header>
+        <!--Using the w3 svg library, the animation of the title was created.-->
         <div id="Sneaker">
         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
             <text id="animatedPath-S" x="10" y="70" font-family="Arial" font-size="60" fill="black">S</text>
@@ -56,6 +60,7 @@
     </div>
     </header>
     <main>
+        <!--The shoe dispplay are called shoes, They link to the buy page-->
         <div class="featured_cards">
             <a class="card" href="product/00.html">
             <div onmouseover="changeBackgroundGreen()">
@@ -79,7 +84,7 @@
             </div>
         </a>
         <a class="card" href="product/02.html">
-            <div class="" onmouseover="changeBackgroundBlue ()">
+            <div class="" onmouseover="changeBackgroundBlue()">
                 <img src="images/blue_sneaker.jpg" alt="blue_sneaker">
                 <div>
                     <h1>Blue Sneaker</h1>
@@ -118,12 +123,12 @@
                 </div>
             </div>
         </a>
-        <a class="card" href="product/00.html">
-            <div class="">
-                <img src="images/R.jpg" alt="NEWS">
+        <a class="card" href="product/06.html">
+            <div class="" onmouseover="changeBackgroundRedMesh()"">
+                <img src="images/sneaker.jpeg" alt="Red Mesh Sneaker">
                 <div>
-                    <h1>Tech News</h1>
-                    <p>Find the latest news in tech</p>
+                    <h1>Red Mesh Sneaker</h1>
+                    <p>$150</p>
 
                 </div>
             </div>
